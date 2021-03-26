@@ -4,7 +4,7 @@ def get_vat(payment):
 		vat = payment / 100 * 18
 		return round(vat, 2)
 	except (TypeError, ValueError):
-		print("hui")
+		print("Нет")
 
 result = get_vat("adfad")
 
